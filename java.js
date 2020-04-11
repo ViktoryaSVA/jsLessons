@@ -5,5 +5,6 @@ button.onclick = function() {
     // console.log('work');
     let b = +inputIn.value;
     console.log( b + 10 );
+    inputIn.value = '';
 
 };
