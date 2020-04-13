@@ -1,10 +1,13 @@
-document.querySelector('button').onclick = () => {
-    let r = document.querySelectorAll('input[type = "radio"]');
-    console.log(r);
-    for (let i = 0; i < r.length; i++){
-        if (r[i].checked){
-            console.log(r[i].value);
-        }
-        
-    }
+let out = document.querySelector('.out');
+
+// for (let i = 0; i <5 ; i++) {
+//   for (let k = 0; k < 10; k++) {
+//     out.innerHTML += k;
+
+//   }
+//   out.innerHTML += ' ';
+// }
+
+for (let i = 1; i < 10; i++) {
+    out.innerHTML +='3*' + i + '=' + (i * 3) + '<br>';
 };
